@@ -1,0 +1,19 @@
+.section_inputs{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+
+    .section_inputs-label{
+        margin-bottom: .5rem;
+        color: #838383;
+    }
+
+    .section_inputs-input{
+        width: 7rem;
+        height: 4rem;
+        border-radius: 1rem; 
+        font-size: 2.5rem;
+        padding-left: 2.5rem;
+    }
+}

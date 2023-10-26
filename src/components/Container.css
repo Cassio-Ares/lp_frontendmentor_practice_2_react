@@ -1,0 +1,14 @@
+.container{
+    background-color: blue;
+    width: 65%;
+    height: 65vh;
+    margin: 7rem auto;
+    border-radius: 2rem;
+    border-bottom-right-radius: 10rem;
+    box-shadow: 5px 5px 10px #363434, -5px -5px 5px #363434;
+
+    .container_inputs{
+        display: flex;
+
+    }
+}
