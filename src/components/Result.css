@@ -1,0 +1,14 @@
+.result_date {
+  margin-left: 4rem;
+  font-size: 5rem;
+  line-height: 0rem;
+  margin: 4.5rem 1.5rem;
+  
+
+  .result_number {
+    color: #8643ff;
+    font-size: 5rem;
+    line-height: 0rem;
+    margin-right: 1rem;
+  }
+}

@@ -1,9 +1,13 @@
-import React from 'react'
+import './Btn.css'
+import btn_img from '../images/icon-arrow.svg'
 
-const btn = () => {
+
+const Btn = ({click}) => {
   return (
-    <div>btn</div>
+    <div>
+      <button className='btn' onClick={click}><img src={btn_img} alt='button'/></button>
+    </div>
   )
 }
 
-export default btn
+export default Btn

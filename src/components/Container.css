@@ -1,6 +1,6 @@
 .container{
-    background-color: blue;
-    width: 65%;
+    background: #fff9f9;
+    width: 55%;
     height: 65vh;
     margin: 7rem auto;
     border-radius: 2rem;
@@ -9,6 +9,31 @@
 
     .container_inputs{
         display: flex;
-
+        position: relative;
     }
+    
+    .error_day{
+        position: absolute;
+        color: #ff0000;
+        top: 7.5rem;
+        left: 1.5rem;
+        font-size: 0.8rem;
+    }
+
+    .error_month{
+        position: absolute;
+        color: #ff0000;
+        top: 7.5rem;
+        left: 13.2rem;
+        font-size: 0.8rem;
+    }
+
+    .error_year{
+        position: absolute;
+        color: #ff0000;
+        top: 7.5rem;
+        left: 25rem;
+        font-size: 0.8rem;
+    }
+
 }
