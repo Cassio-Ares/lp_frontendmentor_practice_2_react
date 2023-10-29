@@ -29,10 +29,14 @@ const Container = () => {
 
 
   /**
-   * data atual
+   * date now
    */
 
   const nowDate = new Date();
+
+  /**
+   * Validation and submit 
+   */
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -61,6 +65,15 @@ const Container = () => {
        setDay(dayTotal)
        setMonths(monthsTotal)
        setYear(yearTotal)
+
+       setErrorDay(false);
+       setErrorMonth(false);
+       setErrorYear(false);
+       
+       setValueDay('');
+       setValueMonths('');
+       setValueYear('');
+
 
     }
   };
@@ -125,6 +138,8 @@ const Container = () => {
         </form>
       </section>
 
+      <div className="container_border-botton"> </div>
+    
       <section className="result">
         <Result result={year} period="year" />
         <Result result={months} period="months" />

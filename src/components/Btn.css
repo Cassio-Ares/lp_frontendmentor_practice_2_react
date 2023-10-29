@@ -1,9 +1,14 @@
 .btn{
     background: #8643ff;
     border-radius: 50%;
-    width: 5rem;
-    height: 4rem;
-    position: absolute;
-    left: 57rem;
-    top: 32%;
-}
+    width: 6rem;
+    height: 5rem;
+    position: relative;
+    top: 7.5rem;
+    left: 4rem;
+    cursor: pointer;
+ }
+
+ .btn:hover{
+    background: rgb(112, 110, 110);
+ }
