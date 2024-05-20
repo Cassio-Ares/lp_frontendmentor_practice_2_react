@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Btn from "./Btn";
 import "./Container.css";
-import Inputs from "./inputs";
+import Inputs from "./Inputs";
 import Result from "./result";
 import Error from "./Error";
 
