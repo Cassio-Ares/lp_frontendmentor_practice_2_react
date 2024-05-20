@@ -2,7 +2,7 @@ import { useState } from "react";
 import Btn from "./Btn";
 import "./Container.css";
 import Inputs from "./Inputs";
-import Result from "./result";
+import Result from "./Result";
 import Error from "./Error";
 
 const Container = () => {
